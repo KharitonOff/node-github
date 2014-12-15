@@ -414,7 +414,7 @@
         },
 
         "get": {
-            "url": "/gists/:id",
+            "url": "/gists/:id/:version",
             "method": "GET",
             "params": {
                 "$id": null,
