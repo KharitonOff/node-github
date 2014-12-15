@@ -345,7 +345,14 @@
                 "invalidmsg": "",
                 "description": "Search Term",
                 "combined": true
-            }
+            },
+            "version": {
+                "type": "String",
+                "required": false,
+                "validation": "",
+                "invalidmsg": "",
+                "description": ""
+            },
         }
     },
 
@@ -418,7 +425,7 @@
             "method": "GET",
             "params": {
                 "$id": null,
-                "version": null
+                "$version": null
             }
         },
 
